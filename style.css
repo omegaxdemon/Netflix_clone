@@ -1,0 +1,98 @@
+#st{
+    /*background-image: url(bg1.jpg);*/
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(bg1.jpg);
+    background-size: cover;
+}
+#lg{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border-color: transparent;
+    text-align: center;
+    font-size: medium;
+}
+#sign{
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border: transparent;
+    /*font-size: large;*/
+    padding-left: 5px;
+}
+#dusra{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(bg2.jpg);
+    margin-top: 30px;
+}
+#xyz{
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    border: 2px white solid;
+    border-radius: 5px;
+    width: 100px;
+    height: 41px;
+    text-align: center;
+    margin-right: 2%;
+}
+#select{
+    margin-left: 8%;
+    display: flex;
+    width: justify-content;
+}
+#showsndmov{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 5% 40px 5%;
+}
+#kak{
+    border: none;
+    border-radius: 5px;
+}
+#reasons{
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 90px 5% 90px;
+}
+.sk{
+    background-image: url(bg3.jpg);
+    border: none;
+    border-radius: 10px;
+    width: 23%;
+    
+}
+#fqs{
+    background-color: rgb(59, 61, 62);
+    display: flex;
+    height: 10%;
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#fqs:hover{
+    background-color: rgb(87, 90, 92);
+    cursor: pointer;
+}
+#kak:hover{
+    transform: scale(1.1);
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+#lark{
+    background-color: red;
+}
+#lark:hover{
+    background-color: rgb(145, 19, 19);
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+#dta{
+    text-decoration: underline;
+    font-size: 14px;
+}
+#dta:hover{
+    cursor: pointer;
+}
